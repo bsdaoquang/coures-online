@@ -7,17 +7,6 @@ import { Avatar, Button, List, Space } from 'antd';
 const Posts = () => {
 	return (
 		<div className='container'>
-			{/* 			
-			{posts.map((post, index) => (
-					// <PostItem
-					// 	index={index}
-					// 	title={post.title}
-					// 	description={post.body}
-					// 	key={post.id}
-					// 	score={post.score}
-					// />
-			))} */}
-
 			<List
 				itemLayout='vertical'
 				dataSource={posts}

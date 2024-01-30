@@ -3,12 +3,12 @@
 // import './App.css';
 import Posts from './screens/Posts';
 
-function App() {
+const App = () => {
 	return (
 		<>
 			<Posts />
 		</>
 	);
-}
+};
 
 export default App;
